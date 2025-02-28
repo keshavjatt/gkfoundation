@@ -110,7 +110,7 @@
     padding: 35px 0;
     letter-spacing: 1px;
     color: var(--bs-dark);
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 500;
     outline: none;
     transition: .5s;
@@ -928,4 +928,139 @@
 }
 /*** copyright end ***/
 
+/* Our Certification CSS Code Starts Here */
+.our-certification{
+    margin-top: 90px;
+}
+.custom-list {
+    list-style: none; /* Default bullet points hata dega */
+    padding: 0;
+}
 
+.custom-list li {
+    margin-bottom: 10px; /* Items ke beech gap */
+    display: flex;
+    align-items: center; /* Text aur icon ek line me */
+    cursor: pointer;
+}
+
+.custom-list li:hover {
+    color: #F07C00;
+}
+
+.custom-list li i {
+    color: #F07C00; /* Icon ka color (blue) */
+    margin-right: 10px; /* Icon aur text ke beech gap */
+    font-size: 18px; /* Icon ka size */
+}
+/* Our Certification CSS Code Ends Here */
+
+/* Multi-level dropdown styling  */
+#skillDevMenu {
+    display: none;
+    position: absolute;
+    right: 100%; /* LEFT SIDE SHOW KAREGA */
+    left: auto;
+    top: 0;
+    margin-right: 10px;
+}
+
+/* Show submenu when active */
+#skillDevMenu.show {
+    display: block;
+}
+
+/* ✅ Mobile view ke liye fix */
+@media (max-width: 991px) {
+    #skillDevMenu {
+        position: relative;  /* Absolute hata diya */
+        right: auto;
+        left: auto;
+        margin-right: 0;
+        width: 100%;  /* Full width dropdown */
+    }
+}
+
+
+/* Scrolling Logo image css code starts here */
+.scrolling-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 100%;
+    position: relative;
+}
+
+.scrolling-images {
+    display: flex;
+    width: max-content; /* Ye ensure karega ki jitni bhi images hain, unka width le */
+    animation: scroll 45s linear infinite;
+}
+
+.scrolling-images img {
+    flex: 0 0 auto;
+    height: 100px;
+    width: 180px;
+    margin-right: 15px;
+    border-radius: 15px;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* Scrolling Team Section css code starts here */
+.team-section {
+    background-color: #f8f9fa; /* Light grey background */
+}
+
+.scrolling-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.scrolling-team {
+    display: flex;
+    width: max-content;
+    animation: scroll-team 20s linear infinite;
+}
+
+.team-card {
+    flex: 0 0 auto;
+    text-align: center;
+    margin-right: 20px;
+    width: 180px;
+}
+
+.team-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Square shape with rounded corners */
+    border: 3px solid #F07C00   ;
+}
+
+.team-card h5 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.team-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+@keyframes scroll-team {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}

@@ -136,3 +136,20 @@
 
 })(jQuery);
 
+// script for multiple menus
+document.addEventListener("DOMContentLoaded", function () {
+    let skillDevBtn = document.getElementById("skillDevBtn");
+    let skillDevMenu = document.getElementById("skillDevMenu");
+
+    skillDevBtn.addEventListener("click", function (event) {
+        event.preventDefault(); // Prevent page reload
+        skillDevMenu.classList.toggle("show"); // Toggle visibility
+    });
+
+    // Close submenu if clicked outside
+    document.addEventListener("click", function (event) {
+        if (!skillDevBtn.contains(event.target) && !skillDevMenu.contains(event.target)) {
+            skillDevMenu.classList.remove("show");
+        }
+    });
+});

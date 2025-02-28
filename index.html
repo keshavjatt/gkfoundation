@@ -28,6 +28,9 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+
+        <!-- Font Awesome ko include karna zaroori hai -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     </head>
 
     <body>
@@ -42,31 +45,53 @@
 
         <!-- Navbar & Hero Start -->
         <div class="container-fluid nav-bar sticky-top px-4 py-2 py-lg-0">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a href="" class="navbar-brand p-0">
-                    <h1 class="display-6 text-dark">GK Foundation</h1>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav mx-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="#about" class="nav-item nav-link">About</a>
-                        <a href="#service" class="nav-item nav-link">Service</a>
-
-                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a href="index.html" class="navbar-brand p-0">
+                        <h1 class="display-6 text-dark" style="font-size: 30px;">GK Foundation</h1>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto py-0"> 
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
+                                <div class="dropdown-menu m-0">
+                                    <a href="Chairman.html" class="dropdown-item">Chairman’s Message</a>
+                                    <a href="#" class="dropdown-item">Core Team</a>
+                                    <a href="#" class="dropdown-item">About us</a>
+                                </div>
+                            </div>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Our Collaborations</a>
+                                <div class="dropdown-menu m-0">
+                                    <a href="#" class="dropdown-item">Industry Partners</a>
+                                    <a href="#" class="dropdown-item">Government Partnership</a>
+                                    <a href="#" class="dropdown-item">Placement Tie ups</a>
+                                    <a href="#" class="dropdown-item">Approvals</a>
+                                </div>
+                            </div>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                                <div class="dropdown-menu m-0">
+                                    <a href="#" class="dropdown-item">Projects</a>
+                                    <div class="dropdown-submenu">
+                                        <a href="#" class="dropdown-item dropdown-toggle" id="skillDevBtn">Skill Development</a>
+                                        <ul class="dropdown-menu" id="skillDevMenu">
+                                            <a href="#" class="dropdown-item">Technical Training</a>
+                                            <a href="#" class="dropdown-item">Soft Skills</a>
+                                            <a href="#" class="dropdown-item">Entrepreneurship</a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="nav-item nav-link">Gallery</a>
+                            <a href="#" class="nav-item nav-link">Contact</a>
+                        </div>
                     </div>
-                    <div class="team-icon d-none d-xl-flex justify-content-center me-3">
-                        <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                    <a href="#" class="btn btn-primary rounded-pill py-2 px-4 flex-shrink-0">Get Started</a>
-                </div>
-            </nav>
-        </div>
+                </nav>
+        </div>        
         <!-- Navbar & Hero End -->
 
         <!-- Carousel Start -->
@@ -257,7 +282,7 @@
 
 
         <!-- Service Start -->
-        <div id="service" class="container-fluid service py-5">
+        <div id="   " class="container-fluid service py-5">
             <div class="container service-section py-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Our Service</h4>
@@ -366,6 +391,172 @@
             </div>
         </div>
         <!-- Service End -->
+
+        <!-- Our Certification Section Starts Here -->
+        <div id="certification" class="container-fluid about pb-5 our-certification">
+            <div class="container pb-5">
+                <div class="row g-5">
+                    <div class="col-xl-12 wow fadeInUp" data-wow-delay="0.2s">
+                        <div>
+                            <h4 class="text-primary">Certification</h4>
+                            <h1 class="mb-4">Our Approval and Certification</h1>
+                            <ul class="custom-list">
+                                <li><i class="fa-solid fa-hand-point-right"></i> GK FOUNDATION TAN Number</li>
+                                <li><i class="fa-solid fa-hand-point-right"></i> GK FOUNDATION GST Number Certificate</li>
+                                <li><i class="fa-solid fa-hand-point-right"></i> GK FOUNDATION National Skill Development Corporation (NSDC) Empanelment Certificate</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Our Certification Section Ends Here -->
+
+        <!-- Slider Logo Section Starts Here -->
+        <div  class="container-fluid about pb-5 slider-logo">
+            <div class="container pb-5">
+                <div class="row g-5">
+                    <div class="col-xl-12 wow fadeInUp" data-wow-delay="0.2s">
+                        <div>
+                            <h4 class="text-primary">Government Partners</h4>
+                            <h1 class="mb-4">Our Partners</h1>
+                            
+                            <div class="scrolling-container">
+                                <div class="scrolling-images">
+                                    <img src="img/Our Partners/AERIAL TELECOM SOLUTIONS PRIVATE LIMITED.png" alt="Logo 1">
+                                    <img src="img/Our Partners/Apex Hospitals.jpg" alt="Logo 2">
+                                    <img src="img/Our Partners/ASIAN VIVEKANAND HOSPITAL.png" alt="Logo 3">
+                                    <img src="img/Our Partners/FUSION MICRO FINANCE (PVT.) LTD.png" alt="Logo 4">
+                                    <img src="img/Our Partners/Hotel President.png" alt="Logo 5">
+                                    <img src="img/Our Partners/METRO WORLD TECHNOLOGIES PVT .LTD.png" alt="Logo 6">
+                                    <img src="img/Our Partners/MJ HOSPITAL.png" alt="Logo 7">
+                                    <img src="img/Our Partners/NAV JEEVAN HOSPITAL.png" alt="Logo 8">
+                                    <img src="img/Our Partners/RC APPARELS - old.png" alt="Logo 9">
+                                    <img src="img/Our Partners/Select Hospital.png" alt="Logo 10">
+                                    <img src="img/Our Partners/SIDDH HOSPITAL.png" alt="Logo 11">
+                                    <img src="img/Our Partners/smartsun-technologies-private-limited.jpg" alt="Logo 12">
+                                    <img src="img/Our Partners/standard_diagnostics_pvt_ltd_logo.jpeg" alt="Logo 13">
+                                    <img src="img/Our Partners/unique talent services.jpeg" alt="Logo 14">
+                            
+                                    <!-- Duplicate images for smooth infinite scrolling -->
+                                    <img src="img/Our Partners/AERIAL TELECOM SOLUTIONS PRIVATE LIMITED.png" alt="Logo 1">
+                                    <img src="img/Our Partners/Apex Hospitals.jpg" alt="Logo 2">
+                                    <img src="img/Our Partners/ASIAN VIVEKANAND HOSPITAL.png" alt="Logo 3">
+                                    <img src="img/Our Partners/FUSION MICRO FINANCE (PVT.) LTD.png" alt="Logo 4">
+                                    <img src="img/Our Partners/Hotel President.png" alt="Logo 5">
+                                    <img src="img/Our Partners/METRO WORLD TECHNOLOGIES PVT .LTD.png" alt="Logo 6">
+                                    <img src="img/Our Partners/MJ HOSPITAL.png" alt="Logo 7">
+                                    <img src="img/Our Partners/NAV JEEVAN HOSPITAL.png" alt="Logo 8">
+                                    <img src="img/Our Partners/RC APPARELS - old.png" alt="Logo 9">
+                                    <img src="img/Our Partners/Select Hospital.png" alt="Logo 10">
+                                    <img src="img/Our Partners/SIDDH HOSPITAL.png" alt="Logo 11">
+                                    <img src="img/Our Partners/smartsun-technologies-private-limited.jpg" alt="Logo 12">
+                                    <img src="img/Our Partners/standard_diagnostics_pvt_ltd_logo.jpeg" alt="Logo 13">
+                                    <img src="img/Our Partners/unique talent services.jpeg" alt="Logo 14">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Slider Logo Section Ends Here -->
+
+        <!-- Our Team Section Starts Here -->
+        <div class="container-fluid about pb-5 team-section">
+            <div class="container pb-5">
+                <div class="row g-5">
+                    <div class="col-xl-12 wow fadeInUp" data-wow-delay="0.2s">
+                        <div>
+                            <h4 class="text-primary">Meet Our Experts</h4>
+                            <h1 class="mb-4">Our Team</h1>
+
+                            <div class="scrolling-container">
+                                <div class="scrolling-team">
+                                    <!-- Team Member 1 -->
+                                    <div class="team-card">
+                                        <img src="https://placehold.co/150x150" alt="Team Member 1">
+                                        <h5>Mr Inderjit</h5>
+                                        <p>Finance Head</p>
+                                    </div>
+                                    <!-- Team Member 2 -->
+                                    <div class="team-card">
+                                        <img src="https://placehold.co/150x150" alt="Team Member 2">
+                                        <h5>Mr Naval Chaudhary</h5>
+                                        <p>Project Manager</p>
+                                    </div>
+                                    <!-- Team Member 3 -->
+                                    <div class="team-card">
+                                        <img src="https://placehold.co/150x150" alt="Team Member 3">
+                                        <h5>Mr Avinash Yadav</h5>
+                                        <p>Sr. Project Manager</p>
+                                    </div>
+                                    <!-- Team Member 4 -->
+                                    <div class="team-card">
+                                        <img src="https://placehold.co/150x150" alt="Team Member 4">
+                                        <h5>Mr Sanjeev Prajapati</h5>
+                                        <p>Director</p>
+                                    </div>
+                                    <!-- Team Member 5 -->
+                                    <div class="team-card">
+                                        <img src="https://placehold.co/150x150" alt="Team Member 5">
+                                        <h5>Mr Abhay Pratap Singh</h5>
+                                        <p>Project Manager</p>
+                                    </div>
+                                    <div class="team-card">
+                                        <img src="https://placehold.co/150x150" alt="Team Member 6">
+                                        <h5>Ms Shivani Singh</h5>
+                                        <p>Project Manager</p>
+                                    </div>
+
+                                    <!-- Duplicate for infinite scrolling -->
+                                    <!-- Team Member 1 -->
+                                    <div class="team-card">
+                                        <img src="https://placehold.co/150x150" alt="Team Member 1">
+                                        <h5>Mr Inderjit</h5>
+                                        <p>Finance Head</p>
+                                    </div>
+                                    <!-- Team Member 2 -->
+                                    <div class="team-card">
+                                        <img src="https://placehold.co/150x150" alt="Team Member 2">
+                                        <h5>Mr Naval Chaudhary</h5>
+                                        <p>Project Manager</p>
+                                    </div>
+                                    <!-- Team Member 3 -->
+                                    <div class="team-card">
+                                        <img src="https://placehold.co/150x150" alt="Team Member 3">
+                                        <h5>Mr Avinash Yadav</h5>
+                                        <p>Sr. Project Manager</p>
+                                    </div>
+                                    <!-- Team Member 4 -->
+                                    <div class="team-card">
+                                        <img src="https://placehold.co/150x150" alt="Team Member 4">
+                                        <h5>Mr Sanjeev Prajapati</h5>
+                                        <p>Director</p>
+                                    </div>
+                                    <!-- Team Member 5 -->
+                                    <div class="team-card">
+                                        <img src="https://placehold.co/150x150" alt="Team Member 5">
+                                        <h5>Mr Abhay Pratap Singh</h5>
+                                        <p>Project Manager</p>
+                                    </div>
+                                    <div class="team-card">
+                                        <img src="https://placehold.co/150x150" alt="Team Member 6">
+                                        <h5>Ms Shivani Singh</h5>
+                                        <p>Project Manager</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Our Team Section Ends Here -->
+
+
 
         <!-- Contact Start -->
         <div id="contact" class="container-fluid contact py-5">
@@ -534,10 +725,10 @@
                             <h4 class="text-white mb-4">Support</h4>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Disclaimer</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Support</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> FAQ</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Help</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Work with us </a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-2">
