@@ -1077,3 +1077,20 @@
         transform: translateX(-50%);
     }
 }
+
+/* whatsapp css starts here  */
+.custom-whatsapp-btn {
+    position: fixed;
+    left: 5px;
+    bottom: 21px;
+    width: 105px;
+    height: 78px;
+    z-index: 1000;
+}
+
+.custom-whatsapp-btn lottie-player {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+/* whatsapp css ends here  */
