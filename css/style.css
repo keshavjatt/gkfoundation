@@ -929,9 +929,10 @@
 /*** copyright end ***/
 
 /* Our Certification CSS Code Starts Here */
-.our-certification{
+.our-certification {
     margin-top: 90px;
 }
+
 .custom-list {
     list-style: none; /* Default bullet points hata dega */
     padding: 0;
@@ -944,16 +945,28 @@
     cursor: pointer;
 }
 
-.custom-list li:hover {
-    color: #F07C00;
+.custom-list a {
+    text-decoration: none; /* Link ka underline hata dega */
+    color: inherit; /* Parent color inherit karega */
+    display: flex;
+    align-items: center;
+}
+
+.custom-list a:hover {
+    color: #F07C00; /* Jab hover karein toh pura text aur icon color change ho */
+}
+
+.custom-list a:hover i {
+    color: #F07C00; /* Icon ka bhi color change ho hover par */
 }
 
 .custom-list li i {
-    color: #F07C00; /* Icon ka color (blue) */
+    color: #F07C00; /* Default icon color */
     margin-right: 10px; /* Icon aur text ke beech gap */
     font-size: 18px; /* Icon ka size */
 }
 /* Our Certification CSS Code Ends Here */
+
 
 /* Multi-level dropdown styling  */
 #skillDevMenu {
