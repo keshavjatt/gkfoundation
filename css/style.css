@@ -1094,3 +1094,26 @@
     cursor: pointer;
 }
 /* whatsapp css ends here  */
+
+/* GK Logo */
+.gk-logo-header {
+    width: 76px;
+    height: 52px;
+    margin-left: 96px;
+}
+
+.gk-logo-footer {
+    width: 103px;
+    height: 92px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 21px;
+}
+
+@media (max-width: 768px) {
+    .gk-logo-header {
+        margin-left: 0px;
+        height: 77px;
+        width: 72px;
+    }
+}
