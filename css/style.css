@@ -1107,7 +1107,7 @@
     height: 92px;
     background-color: white;
     padding: 10px;
-    border-radius: 21px;
+    border-radius: 9px;
 }
 
 @media (max-width: 768px) {
